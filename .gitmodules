@@ -1,0 +1,12 @@
+[submodule "monodevelop"]
+	path = monodevelop
+	url = https://github.com/PlayScriptRedux/monodevelop.git
+[submodule "playscript"]
+	path = playscript
+	url = https://github.com/playscriptredux/playscript
+[submodule "playscriptredux.github.io"]
+	path = playscriptredux.github.io
+	url = https://github.com/PlayScriptRedux/playscriptredux.github.io.git
+[submodule "Make2CSProjUpdater"]
+	path = Make2CSProjUpdater
+	url = https://github.com/PlayScriptRedux/Make2CSProjUpdater.git
