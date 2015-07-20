@@ -3,10 +3,13 @@
 	url = https://github.com/PlayScriptRedux/monodevelop.git
 [submodule "playscript"]
 	path = playscript
-	url = https://github.com/playscriptredux/playscript
+	url = https://github.com/PlayScriptRedux/playscript.git
 [submodule "playscriptredux.github.io"]
 	path = playscriptredux.github.io
 	url = https://github.com/PlayScriptRedux/playscriptredux.github.io.git
 [submodule "Make2CSProjUpdater"]
 	path = Make2CSProjUpdater
 	url = https://github.com/PlayScriptRedux/Make2CSProjUpdater.git
+[submodule "away3d-core-fp11"]
+	path = away3d-core-fp11
+	url = https://github.com/PlayScriptRedux/away3d-core-fp11.git
