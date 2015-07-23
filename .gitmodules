@@ -7,9 +7,19 @@
 [submodule "playscriptredux.github.io"]
 	path = playscriptredux.github.io
 	url = https://github.com/PlayScriptRedux/playscriptredux.github.io.git
+[submodule "away3d-examples-fp11"]
+	path = away3d-examples-fp11
+	url = https://github.com/PlayScriptRedux/away3d-examples-fp11.git
 [submodule "Make2CSProjUpdater"]
 	path = Make2CSProjUpdater
 	url = https://github.com/PlayScriptRedux/Make2CSProjUpdater.git
 [submodule "away3d-core-fp11"]
 	path = away3d-core-fp11
 	url = https://github.com/PlayScriptRedux/away3d-core-fp11.git
+[submodule "monomac"]
+	path = monomac
+	url = https://github.com/PlayScriptRedux/monomac.git
+[submodule "Whack"]
+	path = Whack
+	url = https://github.com/PlayScriptRedux/Whack.git
+
