@@ -19,9 +19,6 @@
 [submodule "monomac"]
 	path = monomac
 	url = https://github.com/PlayScriptRedux/monomac.git
-[submodule "Whack"]
-	path = Whack
-	url = https://github.com/PlayScriptRedux/Whack.git
 [submodule "Starling-Framework"]
 	path = Starling-Framework 
 	url = https://github.com/PlayScriptRedux/Starling-Framework.git
