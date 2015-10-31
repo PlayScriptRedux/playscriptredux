@@ -23,3 +23,6 @@
 	path = Starling-Framework 
 	url = https://github.com/PlayScriptRedux/Starling-Framework.git
 
+[submodule "playscript-binding"]
+	path = playscript-binding
+	url = ./playscript-binding
