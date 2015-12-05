@@ -20,6 +20,9 @@
 	path = Starling-Framework 
 	url = https://github.com/PlayScriptRedux/Starling-Framework.git
 
-[submodule "playscript-binding"]
-	path = playscript-binding
-	url = ./playscript-binding
+[submodule "mono"]
+	path = mono
+	url = https://github.com/mono/mono.git
+[submodule "mono-llvm"]
+	path = mono-llvm
+	url = git://github.com/mono/llvm.git
