@@ -19,10 +19,7 @@ else
 fi
 # Checkout playscript branch back out so super project commits tracks that branch
 git checkout playscript
+git pull
 
-popd
-
-pushd mono
-git fetch origin
 popd
 
