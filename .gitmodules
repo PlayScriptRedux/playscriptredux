@@ -26,6 +26,3 @@
 [submodule "mono-llvm"]
 	path = mono-llvm
 	url = git://github.com/mono/llvm.git
-[submodule "openfl"]
-	path = openfl
-	url = https://github.com/openfl/openfl.git

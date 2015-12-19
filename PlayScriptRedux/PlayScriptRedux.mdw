@@ -1,9 +1,0 @@
-<WorkspaceItem ctype="Workspace">
-  <Items>
-    <Item>../Make2CSProjUpdater/Make2CSProjUpdater.sln</Item>
-    <Item>../away3d-core-fp11/away3d-core-monomac.sln</Item>
-    <Item>../away3d-examples-fp11/away3d-examples.sln</Item>
-    <Item>../playscript-base/PlayScript.Application.OSX/PlayScript.Application.OSX.sln</Item>
-    <Item>../playscript/mcs/class/Mono.PlayScript/Mono.PlayScript.sln</Item>
-  </Items>
-</WorkspaceItem>

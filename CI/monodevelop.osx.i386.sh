@@ -1,5 +1,6 @@
 #!/bin/bash
 pushd monodevelop
+
 git fetch mono
 git reset --hard
 git checkout upstream/master
@@ -10,7 +11,7 @@ git submodule update --init --recursive
 make clean
 
 # Quick fix for broken build
-pushd monodevelop//main/external/fsharpbinding/
+pushd main/external/fsharpbinding/
 git reset --hard
 ./configure.sh
 make
@@ -22,5 +23,5 @@ make render.exe
 make app
 ./make-dmg-bundle.sh
 popd
-popd
 
+popd

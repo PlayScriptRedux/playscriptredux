@@ -4,7 +4,7 @@ git submodule update --init --recursive
 
 if [ -z ${MonoInstallPath+x} ]
 then 
-  MonoInstallPath=$HOME/mono/mono
+  MonoInstallPath=$HOME/mono/mono32
 else 
   echo ${MonoInstallPath}
 fi
