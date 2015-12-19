@@ -4,7 +4,7 @@ git fetch mono
 git reset --hard
 git checkout upstream/master
 git pull mono master
-gut submodule sync
+git submodule sync
 git submodule update --init --recursive
 ./configure --prefix=${HOME}/mono/monodevelop
 make clean
