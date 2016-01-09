@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlayScript.Core", "PlayScript.Core", "{0EC4986C-F5D2-4709-A87D-C1B82AC94447}"
+EndProject
+Project("{464403d2-eb41-442a-a1f1-9bf858b8865f}") = "pscorlib", "playscript\mcs\class\pscorlib\pscorlib.psproj", "{EDBACFCB-2817-4A2E-8DDF-B24AEFA56352}"
+EndProject
+Project("{464403d2-eb41-442a-a1f1-9bf858b8865f}") = "pscorlib.AOT", "playscript\mcs\class\pscorlib_aot\pscorlib.AOT.psproj", "{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}"
+EndProject
+Project("{464403d2-eb41-442a-a1f1-9bf858b8865f}") = "pscorlib.AOT.MonoMac", "playscript\mcs\class\pscorlib_aot\pscorlib.AOT.MonoMac.psproj", "{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}"
+EndProject
+Project("{464403d2-eb41-442a-a1f1-9bf858b8865f}") = "pscorlib.AOT.Xamarin.Mac", "playscript\mcs\class\pscorlib_aot\pscorlib.AOT.Xamarin.Mac.psproj", "{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}"
+EndProject
+Project("{464403d2-eb41-442a-a1f1-9bf858b8865f}") = "pscorlib.AOT.Xamarin.iOS", "playscript\mcs\class\pscorlib_aot\pscorlib.AOT.Xamarin.iOS.psproj", "{876BFFD1-CEFA-44DD-9243-A50958EF65DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlayScript.Dynamic", "PlayScript.Dynamic", "{F2CC95CD-3D23-4F59-8F98-E8466CDBA732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayScript.Dynamic.AOT", "playscript\mcs\class\PlayScript.Dynamic_aot\PlayScript.Dynamic.AOT.csproj", "{0BACBE20-34DD-4E24-8B91-87970E8A23B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayScript.Dynamic", "playscript\mcs\class\PlayScript.Dynamic\PlayScript.Dynamic.csproj", "{5F7F9AF6-CE83-4F13-A25F-355DB2861D43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug+MonoMac|Any CPU = Debug+MonoMac|Any CPU
+		Release+MonoMac|Any CPU = Release+MonoMac|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Debug+MonoMac|Any CPU.ActiveCfg = Debug+MonoMac|Any CPU
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Debug+MonoMac|Any CPU.Build.0 = Debug+MonoMac|Any CPU
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Release+MonoMac|Any CPU.ActiveCfg = Release+MonoMac|Any CPU
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9}.Release+MonoMac|Any CPU.Build.0 = Release+MonoMac|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Debug+MonoMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Debug+MonoMac|Any CPU.Build.0 = Debug|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Release+MonoMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8}.Release+MonoMac|Any CPU.Build.0 = Debug|Any CPU
+		{5F7F9AF6-CE83-4F13-A25F-355DB2861D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7F9AF6-CE83-4F13-A25F-355DB2861D43}.Debug+MonoMac|Any CPU.ActiveCfg = Debug+MonoMac|Any CPU
+		{5F7F9AF6-CE83-4F13-A25F-355DB2861D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7F9AF6-CE83-4F13-A25F-355DB2861D43}.Release+MonoMac|Any CPU.ActiveCfg = Release+MonoMac|Any CPU
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD}.Debug+MonoMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD}.Debug+MonoMac|Any CPU.Build.0 = Debug|Any CPU
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD}.Release+MonoMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD}.Release+MonoMac|Any CPU.Build.0 = Debug|Any CPU
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}.Debug+MonoMac|Any CPU.ActiveCfg = Debug+MonoMac|Any CPU
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release+MonoMac|Any CPU.ActiveCfg = Release+MonoMac|Any CPU
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release+MonoMac|Any CPU.Build.0 = Release+MonoMac|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Debug+MonoMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Debug+MonoMac|Any CPU.Build.0 = Debug|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release+MonoMac|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6}.Release+MonoMac|Any CPU.Build.0 = Debug|Any CPU
+		{EDBACFCB-2817-4A2E-8DDF-B24AEFA56352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBACFCB-2817-4A2E-8DDF-B24AEFA56352}.Debug+MonoMac|Any CPU.ActiveCfg = Debug+MonoMac|Any CPU
+		{EDBACFCB-2817-4A2E-8DDF-B24AEFA56352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBACFCB-2817-4A2E-8DDF-B24AEFA56352}.Release+MonoMac|Any CPU.ActiveCfg = Release+MonoMac|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDBACFCB-2817-4A2E-8DDF-B24AEFA56352} = {0EC4986C-F5D2-4709-A87D-C1B82AC94447}
+		{ADBAC91B-2817-479E-8DDF-B24ADDA563A6} = {0EC4986C-F5D2-4709-A87D-C1B82AC94447}
+		{EDBAC91B-2817-479E-8DDF-B24ADDA563A6} = {0EC4986C-F5D2-4709-A87D-C1B82AC94447}
+		{568ACFC0-B52E-4507-99BD-2050E3F3D4E8} = {0EC4986C-F5D2-4709-A87D-C1B82AC94447}
+		{876BFFD1-CEFA-44DD-9243-A50958EF65DD} = {0EC4986C-F5D2-4709-A87D-C1B82AC94447}
+		{0BACBE20-34DD-4E24-8B91-87970E8A23B9} = {F2CC95CD-3D23-4F59-8F98-E8466CDBA732}
+		{5F7F9AF6-CE83-4F13-A25F-355DB2861D43} = {F2CC95CD-3D23-4F59-8F98-E8466CDBA732}
+	EndGlobalSection
+EndGlobal
