@@ -1,0 +1,7 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>PlayScript.Master.sln</Item>
+    <Item>PlayScript.Addin/PlayScript.Addin.sln</Item>
+    <Item>PlayScript.Compiler.sln</Item>
+  </Items>
+</WorkspaceItem>
